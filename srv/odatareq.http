@@ -1,0 +1,36 @@
+GET http://localhost:4004/odata/v4/relsrv/
+
+###
+GET http://localhost:4004/odata/v4/relsrv/SalesOrderHeaderSet
+
+###
+POST http://localhost:4004/odata/v4/relsrv/SalesOrderHeaderSet
+Content-Type: application/json
+
+{
+    "description": "New Order",
+    "item_details_comp": [
+        {
+            "product": "Product A",
+            "quantity": 2
+        },
+        {
+            "product": "Product B",
+            "quantity": 1
+        }
+    ]   
+}
+
+
+###
+DELETE http://localhost:4004/odata/v4/relsrv/SalesOrderHeaderSet(c3b2b1e7-8957-45e7-b542-8d72264f600f)
+
+###
+GET http://localhost:4004/odata/v4/relsrv/HeaderSet
+
+###
+GET http://localhost:4004/odata/v4/relsrv/ItemsSet
+
+
+###
+DELETE http://localhost:4004/odata/v4/relsrv/HeaderSet(11111111-1111-1111-1111-111111111111)

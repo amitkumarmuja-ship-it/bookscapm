@@ -1,0 +1,8 @@
+ID,title,author,price,publishedDate,digitalCopy
+0f5fdd95-e081-4f18-8763-7387f404347e,The Great Gatsby,F. Scott Fitzgerald,299.99,2020-01-15T10:00:00Z,true
+d5ee3c00-b438-479d-b2c3-104a1859e939,To Kill a Mockingbird,Harper Lee,399.50,2019-05-20T09:30:00Z,false
+6829ae38-818b-490d-adec-c3c70f6b545e,1984,George Orwell,250.00,2021-08-10T14:15:00Z,true
+b2265e72-66c8-454d-931c-43826a4efd50,The Hobbit,J.R.R. Tolkien,499.99,2018-12-01T08:00:00Z,false
+654970c5-8296-449a-a980-feb8b6989f2f,Clean Code,Robert C. Martin,799.00,2022-03-12T11:45:00Z,true
+b2be5ce1-f065-4813-85dc-5b86a09012bd,The Pragmatic Programmer,Andrew Hunt,899.99,2023-06-25T16:20:00Z,true
+d7c1709d-b5da-45fa-9070-c7bf0302d4d2,Design Patterns,Erich Gamma,999.50,2021-09-05T13:10:00Z,false

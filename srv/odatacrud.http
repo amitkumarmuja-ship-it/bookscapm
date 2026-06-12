@@ -1,0 +1,31 @@
+GET http://localhost:4004/odata/v4/library-srv/
+
+###
+GET http://localhost:4004/odata/v4/library-srv/BooksSet
+###
+GET http://localhost:4004/odata/v4/library-srv/BooksSet(0f5fdd95-e081-4f18-8763-7387f404347e)
+
+###
+POST http://localhost:4004/odata/v4/library-srv/BooksSet
+Content-Type: application/json
+
+{
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "price": 299.99,
+    "publishedDate": "1951-07-16T00:00:00Z",
+    "digitalCopy": true
+}
+
+
+###
+PUT http://localhost:4004/odata/v4/library-srv/BooksSet(0f5fdd95-e081-4f18-8763-7387f404347e)
+Content-Type: application/json
+
+{
+    "title": "The Great Gatsby 1",
+    "author": "F. Scott Fitzgerald Jnr.",
+    "price": 299.99,
+    "publishedDate": "2020-01-15T10:00:00Z",
+    "digitalCopy": true
+}
