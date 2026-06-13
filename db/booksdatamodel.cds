@@ -10,3 +10,9 @@ entity Books : managed {
     digitalCopy : Boolean;
 
 }
+
+entity Library{
+    key LibID : UUID;
+    totalBooks : Integer;
+    location : String;  
+}
